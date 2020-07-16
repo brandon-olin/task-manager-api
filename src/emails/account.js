@@ -25,10 +25,10 @@ const sendFarewellEmail = (email, name) => {
       text: `At your request we're cancelling your account ${name}. If you don't mind, could you send us a quick email back explaining why you're going? We'd love to know what we can do to improve our service for other users!`,
     })
     .then((data) => {
-      console.log("Status: SUCCESS", data);
+      // console.log("Status: SUCCESS", data);
     })
     .catch((e) => {
-      console.log("Status: ERROR", e);
+      // console.log("Status: ERROR", e);
     });
 };
 
